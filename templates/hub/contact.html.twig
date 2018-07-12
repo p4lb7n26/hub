@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Contact {% endblock %}
+
+{% block body %}
+
+        <!--Map-->
+        <div class="map-clean">
+            <div class="container">
+            <div class="intro">
+            </div>
+        </div><iframe allowfullscreen frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.9915840080544!2d121.06948407154454!3d14.656419033102505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b766f967e55f%3A0x4e1938ebba579e4!2sNational+Engineering+Center%2C+Apacible+St%2C+Diliman%2C+Quezon+City%2C+Metro+Manila!5e0!3m2!1sen!2sph!4v1476429444126" ></iframe></div>
+        <!--EndMap-->
+
+        <section id="contact" class="contact sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_contact whitebackground">
+                        <div class="head_title text-center">
+                            <h2>GET IN TOUCH</h2>
+							
+                        </div>
+                        <div class="contact_content">
+                            <div class="col-md-6">
+                                <div class="single_left_contact">
+                                    <form action="#" id="formid">
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" placeholder="first name" required="">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+                                        </div>
+
+                                        <div class="center-content">
+                                            <input type="submit" value="Submit" class="btn btn-default">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_right_contact">
+                                    
+
+                                    <div class="contact_address margin-top-40">
+                                        <span>Address</span>
+                                        <span>Entreprise Program for Technopreneurship</span> 
+                                        <span>3/F National Engineering Center</span> 
+                                        <span>University of the Philippines</span> 
+                                        <span>Diliman, Quezon City</span> 
+                                        <span class="margin-top-20">General Support </span> 
+                                        <span>(+63) 917 137 8589</span> 
+                                        <span>(+63 2) 652 6922</span> 
+                                    </div>
+
+                                    <div class="contact_socail_bookmark">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-google"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of Contact Section -->
+
+{% endblock %}
